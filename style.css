@@ -1,0 +1,77 @@
+body{
+    margin-top: 200px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-group {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button.active {
+    background-color: #2196F3;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .result {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  #error-msg {
+    color: red;
+  }
+  
+  #result-text {
+    font-weight: bold;
+  }
+  
